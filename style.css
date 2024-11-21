@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+
+.wall {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.new-ToDo-Panel {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.ToDo-Name {
+    width: 70%;
+    height: 60px;
+    border-radius: 50px;
+    border: 3px solid rgb(105, 105, 105);
+    outline: none;
+    padding: 7px;
+    padding-left: 30px;
+    font-size: 48px;
+    color: rgb(73, 73, 73);
+}
+
+.create-ToDo {
+    margin-left: 30px;
+    border-radius: 50px;
+    border: 3px solid rgb(105, 105, 105);
+    width: 16%;
+    height: 80px;
+    position: absolute;
+    top: 100px;
+    font-size: 32px;
+    color: rgb(95, 95, 95);
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all linear 0.2s;
+}
+
+.create-ToDo:hover {
+    background-color: rgb(95, 95, 95);
+    color: rgb(255, 255, 255);
+}
+
+#status {
+    border-radius: 50px;
+    border: 3px solid rgb(105, 105, 105);
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    width: 15%;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all linear 0.2s;
+}
+
+#status:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+.list {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 50px;
+    border: 3px solid rgb(105, 105, 105);    
+    height: 500px;
+    padding: 20px;
+    font-size: 32px;
+    display: block;
+    overflow-y: auto;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(240, 240, 240);
+    border-radius: 50px;
+    margin-bottom: 8px;
+    transition: all linear 0.2s;
+}
+
+.task:hover {
+    background-color:rgb(221, 221, 221)/* rgb(165, 228, 165)*/;
+}
+
+.task-name {
+    cursor: default;
+}
+
+.task-name, .btn-task {
+    margin: 7px;
+}
+
+.btn-task {
+    margin-left: 10px;
+    border-radius: 50px;
+    border: 2px solid rgb(105, 105, 105);  
+    padding: 10px 5px;
+    font-size: 16px;
+    transition: all linear 0.15s;
+}
+
+#complete:hover {
+    background-color: rgb(112, 224, 112);
+    color: azure;
+}
+
+#del:hover {
+    background-color: rgb(255, 80, 80);
+    color: azure;
+}
+
+.completed {
+    background-color: rgb(165, 228, 165);
+    transition: none;
+}
+
+.completed:hover {
+    background-color: rgb(148, 228, 148);
+}
